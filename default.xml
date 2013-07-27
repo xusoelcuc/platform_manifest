@@ -9,6 +9,10 @@
            fetch=".."
            review="review.cyanogenmod.org" />
 
+  <remote  name="pa"
+           fetch="https://github.com/ParanoidAndroid"
+           review="gerrit.androidninjas.com:8181" />
+
   <remote  name="bam"
 	   fetch="https://github.com/BAM-Team/" />
 
