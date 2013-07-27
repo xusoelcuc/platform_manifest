@@ -34,11 +34,11 @@
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
-  <project path="device/generic/armv7-a-neon" name="android_device_generic_armv7-a-neon" remote="cm" groups="pdk" />
-  <project path="device/generic/common" name="android_device_generic_common" remote="cm" groups="pdk" />
-  <project path="device/generic/goldfish" name="android_device_generic_goldfish" remote="cm" groups="pdk" />
-  <project path="device/generic/mips" name="android_device_generic_mips" remote="cm" groups="pdk" />
-  <project path="device/generic/x86" name="android_device_generic_x86" remote="cm" groups="pdk" />
+  <project path="device/generic/armv7-a-neon" name="CyanogenMod/android_device_generic_armv7-a-neon" groups="pdk" />
+  <project path="device/generic/common" name="CyanogenMod/android_device_generic_common" groups="pdk" />
+  <project path="device/generic/goldfish" name="CyanogenMod/android_device_generic_goldfish" groups="pdk" />
+  <project path="device/generic/mips" name="CyanogenMod/android_device_generic_mips" groups="pdk" />
+  <project path="device/generic/x86" name="CyanogenMod/android_device_generic_x86" groups="pdk" />
   <project path="device/generic/mini-emulator-armv7-a-neon" name="device/generic/mini-emulator-armv7-a-neon" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="device/generic/mini-emulator-mips" name="device/generic/mini-emulator-mips" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
@@ -349,7 +349,7 @@
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
-  <project path="vendor/cm" name="android_vendor_cm" remote="cm" />
+  <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
 
   <!-- AOSP -->
@@ -389,7 +389,7 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" revision="refs/tags/android-4.3_r2.1" groups="pdk" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.3_r2.1" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.3_r2.1" groups="pdk,tools" />
-  <project path="sdk" name="android_sdk" remote="cm" />
+  <project path="sdk" name="CyanogenMod/android_sdk" />
 
   <!-- AOKP -->
   <project path="packages/apps/PerformanceControl" name="AOKP/packages_apps_PerformanceControl" revision="jb-mr1" />
