@@ -203,7 +203,7 @@
   <project path="external/smali" name="CyanogenMod/android_external_smali" groups="pdk" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" />
-  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" revision="master" />
+  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" revision="cm-10.2" />
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
   <project path="external/srec" name="CyanogenMod/android_external_srec" />
   <project path="external/srtp" name="CyanogenMod/android_external_srtp" />
