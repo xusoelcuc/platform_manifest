@@ -270,7 +270,7 @@
   <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" groups="qcom" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <!-- NOT YET BRANCHED TO cm-10.2 YET BY CM REMOVE THE REVISION WHEN IT IS BRANCHED! -->
-  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" revision="cm-10.1" groups="qcom" />
+  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="qcom" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
@@ -293,7 +293,7 @@
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
   <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" />
-  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" revision="cm-10.1" />
+  <project path="packages/apps/Camera" name="CyanogenMod/android_packages_apps_Camera" revision="cm-10.2" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" />
@@ -304,7 +304,7 @@
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/Focal" name="CyanogenMod/android_packages_apps_Focal" />
   <project path="packages/apps/Gallery" name="CyanogenMod/android_packages_apps_Gallery" />
-  <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" revision="cm-10.1" />
+  <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" revision="cm-10.2" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
@@ -448,24 +448,24 @@
   </project>
 
   <!-- Prop vendors -->
-  <project name="TheMuppets/proprietary_vendor_acer" path="vendor/acer" revision="cm-10.1" />
-  <project name="TheMuppets/proprietary_vendor_akm" path="vendor/akm" revision="cm-10.1" />
-  <project name="TheMuppets/proprietary_vendor_amazon" path="vendor/amazon" revision="cm-10.1" />
-  <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" revision="cm-10.1" />
-  <project name="TheMuppets/proprietary_vendor_audience" path="vendor/audience" revision="cm-10.1" />
-  <project name="TheMuppets/proprietary_vendor_bn" path="vendor/bn" revision="cm-10.1" />
-  <project name="TheMuppets/proprietary_vendor_broadcom" path="vendor/broadcom" revision="cm-10.1" />
-  <project name="TheMuppets/proprietary_vendor_elan" path="vendor/elan" revision="cm-10.1" />
-  <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" revision="cm-10.1" />
-  <project name="TheMuppets/proprietary_vendor_hardkernel" path="vendor/hardkernel" revision="cm-10.1" />
-  <project name="TheMuppets/proprietary_vendor_invensense" path="vendor/invensense" revision="cm-10.1" />
-  <project name="TheMuppets/proprietary_vendor_imgtec" path="vendor/imgtec" revision="cm-10.1" />
-  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" revision="cm-10.1" />
-  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" revision="cm-10.1" />
-  <project name="TheMuppets/proprietary_vendor_nvidia" path="vendor/nvidia" revision="cm-10.1" />
-  <project name="TheMuppets/proprietary_vendor_nxp" path="vendor/nxp" revision="cm-10.1" />
-  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" revision="cm-10.1" />
-  <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" revision="cm-10.1" />
-  <project name="TheMuppets/proprietary_vendor_widevine" path="vendor/widevine" revision="cm-10.1" />
+  <project name="TheMuppets/proprietary_vendor_acer" path="vendor/acer" revision="cm-10.2" />
+  <project name="TheMuppets/proprietary_vendor_akm" path="vendor/akm" revision="cm-10.2" />
+  <project name="TheMuppets/proprietary_vendor_amazon" path="vendor/amazon" revision="cm-10.2" />
+  <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" revision="cm-10.2" />
+  <project name="TheMuppets/proprietary_vendor_audience" path="vendor/audience" revision="cm-10.2" />
+  <project name="TheMuppets/proprietary_vendor_bn" path="vendor/bn" revision="cm-10.2" />
+  <project name="TheMuppets/proprietary_vendor_broadcom" path="vendor/broadcom" revision="cm-10.2" />
+  <project name="TheMuppets/proprietary_vendor_elan" path="vendor/elan" revision="cm-10.2" />
+  <project name="TheMuppets/proprietary_vendor_google" path="vendor/google" revision="cm-10.2" />
+  <project name="TheMuppets/proprietary_vendor_hardkernel" path="vendor/hardkernel" revision="cm-10.2" />
+  <project name="TheMuppets/proprietary_vendor_invensense" path="vendor/invensense" revision="cm-10.2" />
+  <project name="TheMuppets/proprietary_vendor_imgtec" path="vendor/imgtec" revision="cm-10.2" />
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" revision="cm-10.2" />
+  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" revision="cm-10.2" />
+  <project name="TheMuppets/proprietary_vendor_nvidia" path="vendor/nvidia" revision="cm-10.2" />
+  <project name="TheMuppets/proprietary_vendor_nxp" path="vendor/nxp" revision="cm-10.2" />
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" revision="cm-10.2" />
+  <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" revision="cm-10.2" />
+  <project name="TheMuppets/proprietary_vendor_widevine" path="vendor/widevine" revision="cm-10.2" />
 
 </manifest>
