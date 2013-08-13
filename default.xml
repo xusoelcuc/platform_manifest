@@ -22,6 +22,7 @@
   <default revision="refs/heads/cm-10.2"
            remote="github"
            sync-c="true"
+           sync-f="true"
            sync-j="4" />
 
   <!-- CM -->
