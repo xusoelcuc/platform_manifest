@@ -206,6 +206,7 @@
   <project path="external/smali" name="CyanogenMod/android_external_smali" />
   <project path="external/sonivox" name="CyanogenMod/android_external_sonivox" groups="pdk" />
   <project path="external/speex" name="CyanogenMod/android_external_speex" groups="pdk" />
+  <project path="external/spongycastle" name="android_external_spongycastle" remote="cm" groups="pdk" />
   <project path="external/koush/Superuser" name="CyanogenMod/Superuser" revision="cm-10.2" />
   <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" />
   <project path="external/srec" name="CyanogenMod/android_external_srec" />
@@ -394,10 +395,12 @@
 
   <!-- AOKP -->
   <project path="packages/apps/PerformanceControl" name="AOKP/packages_apps_PerformanceControl" revision="jb-mr1" />
+  <project path="vendor/aokp-tmobile/apps/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr2" />
+  <project path="vendor/aokp-tmobile/libs/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="aokp" revision="jb-mr2" />
+  <project path="vendor/aokp-tmobile/providers/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="aokp" revision="jb-mr2" />
 
   <!-- PA -->
   <project path="external/doclava" name="ParanoidAndroid/android_external_doclava" revision="jb43" />
-  <project path="vendor/tmobile" name="ParanoidAndroid/android_vendor_tmobile" revision="jb43" />
   <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="jb43" />
 
   <!-- JELLYBAM -->
