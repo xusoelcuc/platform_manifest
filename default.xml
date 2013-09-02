@@ -394,13 +394,13 @@
 
   <!-- AOKP -->
   <project path="packages/apps/PerformanceControl" name="AOKP/packages_apps_PerformanceControl" revision="jb-mr1" />
-  <project path="vendor/aokp-tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" revision="jb-mr2" />
-  <project path="vendor/aokp-tmobile/libs/com.tmobile.themes" name="AOKP/vendor_tmobile_libs_com.tmobile.themes" revision="jb-mr2" />
-  <project path="vendor/aokp-tmobile/providers/ThemeManager" name="AOKP/vendor_tmobile_providers_ThemeManager" revision="jb-mr2" />
 
   <!-- PA -->
   <project path="external/doclava" name="ParanoidAndroid/android_external_doclava" revision="jb43" />
   <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="jb43" />
+  <project path="vendor/tmobile/apps/ThemeChooser" name="ParanoidAndroid/themes-platform-vendor-tmobile-apps-ThemeChooser" revision="jb43" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="ParanoidAndroid/android_vendor_tmobile_libs_com.tmobile.themes" revision="jb43" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="ParanoidAndroid/android_vendor_tmobile_providers_ThemeManager" revision="jb43" />
 
   <!-- JELLYBAM -->
   <project path="platform_manifest" name="platform_manifest" remote="bam" revision="jbam10" />
