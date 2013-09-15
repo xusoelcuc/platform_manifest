@@ -446,7 +446,7 @@
     <copyfile dest="motorola_release.sh" src="motorola_release.sh"/>
     <copyfile dest="sammy_release.sh" src="sammy_release.sh"/>
     <copyfile dest="sony_release.sh" src="sony_release.sh"/>
-    <copyfile dest="unsupported_htc.sh" src="unsupported_htc.sh"/>
+    <copyfile dest="unsupported_device.sh" src="unsupported_device.sh"/>
   </project>
 
   <!-- Prop vendors -->
