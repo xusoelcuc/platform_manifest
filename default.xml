@@ -26,7 +26,7 @@
            sync-j="4" />
 
   <!-- CM -->
-  <project path="build" name="android_build" remote="bam" revision="jbam10">
+  <project path="build" name="android_build" remote="bam" revision="jellybean">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
