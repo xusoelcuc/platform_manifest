@@ -432,10 +432,10 @@
 
   <project path="system/core" name="android_system_core" remote="bam" revision="jellybean" />
 
-  <project path="vendor/bam-rom" name="android_vendor_BAM-Rom" remote="bam" revision="jellybean" />
+  <project path="vendor/bam" name="android_vendor_BAM-Rom" remote="bam" revision="jellybean" />
   <project path="vendor/htc" name="android_vendor_htc" remote="bam" revision="jellybean" />
 
-  <project path="bam-rom" name="BAM-Rom" remote="bam" revision="jellybean" >
+  <project path="builder" name="BAM-Rom" remote="bam" revision="jellybean" >
     <copyfile dest="bam-build.sh" src="build.sh"/>
     <copyfile dest="changelog-gen.sh" src="changelog-gen.sh"/>
     <copyfile dest="amazon_release.sh" src="amazon_release.sh"/>
