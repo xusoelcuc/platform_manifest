@@ -401,7 +401,7 @@
   <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="jb43" />
 
   <!-- BAM-Rom -->
-  <project path="platform_manifest" name="platform_manifest" remote="bam" revision="jbam10" />
+  <project path="platform_manifest" name="platform_manifest" remote="bam" revision="jellybean" />
 
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
 
