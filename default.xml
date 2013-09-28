@@ -405,7 +405,7 @@
 
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
 
-  <project path="frameworks/base" name="android_frameworks_base" remote="bam" revision="jbam10" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="bam" revision="jellybean" />
   <project path="frameworks/native" name="android_frameworks_native" remote="bam" revision="jbam10" />
 
   <project path="packages/apps/BamPapers" name="packages_apps_jellybam_papers" remote="bam" revision="jbam10" />
