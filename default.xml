@@ -400,7 +400,7 @@
   <project path="external/doclava" name="ParanoidAndroid/android_external_doclava" revision="jb43" />
   <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="jb43" />
 
-  <!-- JELLYBAM -->
+  <!-- BAM-Rom -->
   <project path="platform_manifest" name="platform_manifest" remote="bam" revision="jbam10" />
 
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
@@ -433,7 +433,7 @@
 
   <project path="system/core" name="android_system_core" remote="bam" revision="jbam10" />
 
-  <project path="vendor/jellybam" name="jellybam_vendor" remote="bam" revision="jbam10" />
+  <project path="vendor/bam-rom" name="android_vendor_BAM-Rom" remote="bam" revision="jellybean" />
   <project path="vendor/htc" name="android_vendor_htc" remote="bam" revision="jbam10" />
 
   <project path="jellybam" name="jellybam" remote="bam" revision="jbam10" >
