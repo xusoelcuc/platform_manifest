@@ -406,35 +406,34 @@
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
 
   <project path="frameworks/base" name="android_frameworks_base" remote="bam" revision="jellybean" />
-  <project path="frameworks/native" name="android_frameworks_native" remote="bam" revision="jbam10" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="bam" revision="jellybean" />
 
-  <project path="packages/apps/BamPapers" name="packages_apps_jellybam_papers" remote="bam" revision="jbam10" />
-  <project path="packages/apps/BamCleaner" name="android_packages_apps_BamCleaner" remote="bam" revision="jbam10" />
-  <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="bam" revision="jbam10" />
-  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="bam" revision="jbam10" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="bam" revision="jbam10" />
-  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="bam" revision="jbam10" />
-  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="bam" revision="jbam10" />
-  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="bam" revision="jbam10" />
-  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="bam" revision="jbam10" />
-  <project path="packages/apps/HALO" name="android_packages_apps_HALO" remote="bam" revision="jbam10" />
-  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="bam" revision="jbam10" />
-  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="bam" revision="jbam10" />
-  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="bam" revision="jbam10" />
-  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="bam" revision="jbam10" />
+  <project path="packages/apps/BamPapers" name="packages_apps_jellybam_papers" remote="bam" revision="jellybean" />
+  <project path="packages/apps/BamCleaner" name="android_packages_apps_BamCleaner" remote="bam" revision="jellybean" />
+  <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="bam" revision="jellybean" />
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="bam" revision="jellybean" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="bam" revision="jellybean" />
+  <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="bam" revision="jellybean" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="bam" revision="jellybean" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="bam" revision="jellybean" />
+  <project path="packages/apps/HALO" name="android_packages_apps_HALO" remote="bam" revision="jellybean" />
+  <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="bam" revision="jellybean" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="bam" revision="jellybean" />
+  <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" remote="bam" revision="jellybean" />
+  <project path="packages/apps/Phone" name="android_packages_apps_Phone" remote="bam" revision="jellybean" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="bam" revision="jellybean" />
-  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="bam" revision="jbam10" />
-  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="bam" revision="jbam10" />
+  <project path="packages/apps/Torch" name="android_packages_apps_Torch" remote="bam" revision="jellybean" />
+  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="bam" revision="jellybean" />
 
-  <project path="packages/inputmethods/LatinIME" name="android_packages_input_LatinIME" remote="bam" revision="jbam10" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_input_LatinIME" remote="bam" revision="jellybean" />
 
-  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="bam" revision="jbam10" />
-  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="bam" revision="jbam10" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="bam" revision="jellybean" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="bam" revision="jellybean" />
 
-  <project path="system/core" name="android_system_core" remote="bam" revision="jbam10" />
+  <project path="system/core" name="android_system_core" remote="bam" revision="jellybean" />
 
   <project path="vendor/bam-rom" name="android_vendor_BAM-Rom" remote="bam" revision="jellybean" />
-  <project path="vendor/htc" name="android_vendor_htc" remote="bam" revision="jbam10" />
+  <project path="vendor/htc" name="android_vendor_htc" remote="bam" revision="jellybean" />
 
   <project path="bam-rom" name="BAM-Rom" remote="bam" revision="jellybean" >
     <copyfile dest="bam-build.sh" src="build.sh"/>
