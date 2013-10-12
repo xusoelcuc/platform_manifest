@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="bam"
+	   fetch="https://github.com/BAM-Team" />
+
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
+           
+  <remote name="github"
+           fetch="https://github.com" />
 
-  <remote  name="github"
-           fetch=".."
+  <remote  name="cm"
+           fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org" />
 
   <remote  name="pa"
            fetch="https://github.com/ParanoidAndroid"
            review="gerrit.androidninjas.com:8181" />
-
-  <remote  name="bam"
-	   fetch="https://github.com/BAM-Team/" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
