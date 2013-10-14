@@ -416,7 +416,7 @@
   <!-- BAM-Rom -->
   <project path="platform_manifest" name="platform_manifest" remote="bam" revision="jellybean" />
 
-  <project path="bootable/recovery" name="CyanodenMod/android_bootable_recovery" revision="jellybean-mr2.1" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
 
   <project path="frameworks/base" name="android_frameworks_base" remote="bam" revision="jellybean" />
   <project path="frameworks/native" name="android_frameworks_native" remote="bam" revision="jellybean" />
