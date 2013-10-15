@@ -19,6 +19,10 @@
            fetch="https://github.com/AOKP"
            review="gerrit.aokp.co" />
 
+  <remote  name="omni"
+           fetch="https://github.com/omnirom"
+           review="gerrit.omnirom.org" />
+
   <remote  name="pa"
            fetch="https://github.com/ParanoidAndroid"
            review="gerrit.androidninjas.com:8181" />
@@ -413,6 +417,7 @@
   <project path="external/doclava" name="ParanoidAndroid/android_external_doclava" revision="jb43" />
   <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="jb43" />
 
+<<<<<<< HEAD
   <!-- BAM-Rom -->
   <project path="platform_manifest" name="platform_manifest" remote="bam" revision="jellybean" />
 
@@ -458,7 +463,9 @@
     <copyfile dest="sammy_release.sh" src="sammy_release.sh"/>
     <copyfile dest="sony_release.sh" src="sony_release.sh"/>
     <copyfile dest="unsupported_device.sh" src="unsupported_device.sh"/>
-  </project>
+
+  <!-- Omni -->
+  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="omni" revision="android-4.3" />
 
   <!-- Prop vendors -->
   <project name="TheMuppets/proprietary_vendor_acer" path="vendor/acer" revision="cm-10.2" />
