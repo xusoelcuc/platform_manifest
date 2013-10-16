@@ -462,6 +462,7 @@
     <copyfile dest="sammy_release.sh" src="sammy_release.sh"/>
     <copyfile dest="sony_release.sh" src="sony_release.sh"/>
     <copyfile dest="unsupported_device.sh" src="unsupported_device.sh"/>
+  </project>
 
   <!-- Omni -->
   <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="omni" revision="android-4.3" />
