@@ -11,6 +11,10 @@
   <remote name="github"
            fetch="https://github.com" />
 
+  <remote  name="chaos"
+           fetch="https://github.com/ChameleonOS"
+           review="review.chameleonos.org" />
+
   <remote  name="cm"
            fetch="https://github.com/CyanogenMod"
            review="review.cyanogenmod.org" />
@@ -464,8 +468,8 @@
     <copyfile dest="unsupported_device.sh" src="unsupported_device.sh"/>
   </project>
 
-  <!-- Omni -->
-  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="omni" revision="android-4.3" />
+  <!-- ChaOS -->
+  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="chaos" revision="jellybean-mr2.1" />
 
   <!-- Prop vendors -->
   <project name="TheMuppets/proprietary_vendor_acer" path="vendor/acer" revision="cm-10.2" />
