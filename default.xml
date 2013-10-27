@@ -105,7 +105,6 @@
   <project path="external/fdlibm" name="CyanogenMod/android_external_fdlibm" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" />
   <project path="external/freetype" name="CyanogenMod/android_external_freetype" groups="pdk" />
-  <project path="external/Focal" name="xplodwild/android_external_Focal" revision="master" />
   <project path="external/fuse" name="CyanogenMod/android_external_fuse" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" />
   <project path="external/ganymed-ssh2" name="CyanogenMod/android_external_ganymed-ssh2" />
@@ -321,7 +320,6 @@
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
-  <project path="packages/apps/Focal" name="xplodwild/android_packages_apps_Focal" revision="master" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" revision="cm-10.2" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
