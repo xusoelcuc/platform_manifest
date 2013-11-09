@@ -509,7 +509,6 @@
   </project>
 
   <!-- ChaOS -->
-  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="chaos" revision="jellybean-mr2.1" />
 
   <!-- Prop vendors -->
   <project name="TheMuppets/proprietary_vendor_acer" path="vendor/acer" revision="cm-10.2" />
