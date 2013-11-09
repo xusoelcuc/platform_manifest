@@ -462,11 +462,11 @@
   <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="kitkat" />
 
   <!-- BAM-Rom -->
-  <project path="platform_manifest" name="platform_manifest" remote="bam" revision="jellybean" />
+  <project path="platform_manifest" name="platform_manifest" remote="bam" revision="kitkat" />
 
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" />
 
-  <project path="frameworks/base" name="android_frameworks_base" remote="bam" revision="jellybean" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="bam" revision="kitkat" />
   <project path="frameworks/native" name="android_frameworks_native" remote="bam" revision="kitkat" />
 
   <project path="packages/apps/BamPapers" name="packages_apps_jellybam_papers" remote="bam" revision="jellybean" />
@@ -490,7 +490,7 @@
 
   <project path="system/core" name="android_system_core" remote="bam" revision="kitkat" />
 
-  <project path="vendor/bam" name="android_vendor_BAM-Rom" remote="bam" revision="jellybean" />
+  <project path="vendor/bam" name="android_vendor_BAM-Rom" remote="bam" revision="kitkat" />
   <project path="vendor/htc" name="android_vendor_htc" remote="bam" revision="jellybean" />
 
   <project path="builder" name="BAM-Rom" remote="bam" revision="jellybean" >
