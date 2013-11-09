@@ -488,7 +488,7 @@
 
   <project path="packages/apps/BamPapers" name="packages_apps_jellybam_papers" remote="bam" revision="jellybean" />
   <project path="packages/apps/HALO" name="android_packages_apps_HALO" remote="bam" revision="jellybean" />
-  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="bam" revision="jellybean" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="bam" revision="kitkat" />
 
   <project path="system/core" name="android_system_core" remote="bam" revision="kitkat" />
 
