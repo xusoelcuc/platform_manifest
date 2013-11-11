@@ -495,14 +495,17 @@
   <project path="vendor/bam" name="android_vendor_BAM-Rom" remote="bam" revision="kitkat" />
   <project path="vendor/htc" name="android_vendor_htc" remote="bam" revision="jellybean" />
 
-  <project path="builder" name="BAM-Rom" remote="bam" revision="jellybean" >
-    <copyfile dest="bam-build.sh" src="build.sh"/>
-    <copyfile dest="changelog-gen.sh" src="changelog-gen.sh"/>
+  <project path="builder" name="BAM-Rom" remote="bam" revision="kitkat" >
+    <copyfile dest="additional_release.sh" src="additional_release.sh"/>
     <copyfile dest="amazon_release.sh" src="amazon_release.sh"/>
     <copyfile dest="asus_release.sh" src="asus_release.sh"/>
+    <copyfile dest="bam-build.sh" src="build.sh"/>
+    <copyfile dest="bn_release.sh" src="bn_release.sh"/>
+    <copyfile dest="changelog-gen.sh" src="changelog-gen.sh"/>
     <copyfile dest="htc_release.sh" src="htc_release.sh"/>
     <copyfile dest="lge_release.sh" src="lge_release.sh"/>
     <copyfile dest="motorola_release.sh" src="motorola_release.sh"/>
+    <copyfile dest="oppo_release.sh" src="oppo_release.sh"/>
     <copyfile dest="sammy_release.sh" src="sammy_release.sh"/>
     <copyfile dest="sony_release.sh" src="sony_release.sh"/>
     <copyfile dest="unsupported_device.sh" src="unsupported_device.sh"/>
