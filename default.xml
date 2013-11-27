@@ -328,10 +328,12 @@
   <project path="packages/apps/VideoEditor" name="android_packages_apps_VideoEditor" remote="cm" />
   <project path="packages/apps/VoiceDialer" name="android_packages_apps_VoiceDialer" remote="cm" />
   <project path="packages/experimental" name="android_packages_experimental" remote="cm" />
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="cm" />
   <project path="packages/inputmethods/OpenWnn" name="android_packages_inputmethods_OpenWnn" remote="cm" />
   <project path="packages/inputmethods/PinyinIME" name="android_packages_inputmethods_PinyinIME" remote="cm" />
   <project path="packages/providers/ApplicationsProvider" name="android_packages_providers_ApplicationsProvider" remote="cm" />
   <project path="packages/providers/CalendarProvider" name="android_packages_providers_CalendarProvider" remote="cm" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" remote="cm" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="cm" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="cm" />
   <project path="packages/providers/PartnerBookmarksProvider" name="android_packages_providers_PartnerBookmarksProvider" remote="cm" />
@@ -472,17 +474,17 @@
   <project path="vendor/pa" name="android_vendor_pa" remote="pa" revision="kitkat" />
 
   <!-- BAM-Rom -->
-  <project path="platform_manifest" name="platform_manifest" remote="bam" revision="kitkat" />
+  <project path="build" name="android_build" remote="bam" revision="kitkat">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
 
+  <project path="platform_manifest" name="platform_manifest" remote="bam" revision="kitkat" />
   <project path="frameworks/base" name="android_frameworks_base" remote="bam" revision="kitkat" />
   <project path="frameworks/native" name="android_frameworks_native" remote="bam" revision="kitkat" />
-
   <project path="packages/apps/BamPapers" name="packages_apps_jellybam_papers" remote="bam" revision="kitkat" />
   <project path="packages/apps/HALO" name="android_packages_apps_HALO" remote="bam" revision="kitkat" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="bam" revision="kitkat" />
-
   <project path="system/core" name="android_system_core" remote="bam" revision="kitkat" />
-
   <project path="vendor/bam" name="android_vendor_BAM-Rom" remote="bam" revision="kitkat" />
   <project path="vendor/htc" name="android_vendor_htc" remote="bam" revision="kitkat" />
 
