@@ -306,7 +306,6 @@
   <project path="packages/apps/CMAccount" name="android_packages_apps_CMAccount" remote="cm" />
   <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" />
   <project path="packages/apps/CMWallpapers" name="android_packages_apps_CMWallpapers" remote="cm" />
-  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="cm" />
   <project path="packages/apps/ContactsCommon" name="android_packages_apps_ContactsCommon" remote="cm" />
   <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="cm" />
@@ -476,6 +475,7 @@
   <!-- PAC -->
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="PAC" revision="pac-4.4" />
   <project path="packages/apps/Calculator" name="android_packages_apps_Calculator" remote="PAC" revision="pac-4.4" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="PAC" revision="pac-4.4" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="PAC" revision="pac-4.4" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="PAC" revision="pac-4.4" />
   <project path="packages/apps/Mms" name="android_packages_apps_Mms" remote="PAC" revision="pac-4.4" />
